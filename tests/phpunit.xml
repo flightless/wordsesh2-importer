@@ -16,4 +16,10 @@
 			<directory>./test_cases</directory>
 		</testsuite>
 	</testsuites>
+
+	<filter>
+		<whitelist addUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">../classes</directory>
+		</whitelist>
+	</filter>
 </phpunit>
